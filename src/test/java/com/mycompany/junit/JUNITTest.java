@@ -16,6 +16,7 @@ public class JUNITTest {
     public JUNITTest() {
     }
 
+    // test passsed
     @org.junit.jupiter.api.Test
     public void testPriceCalc_3_item_dibawah_500_diskon3x() {
         MyShop myShop = new MyShop();
