@@ -22,7 +22,7 @@ public class JUNITTest {
 
         // Test case 1: Total harga dengan diskon 3 item dibawah 500
         double[] itemPrices1 = { 400.0, 300.0, 450.0 };
-        double expectedTotal = 900.0; // (320 + 240 + 360)
+        double expectedTotal = 920.0; // (320 + 240 + 360)
         assertEquals(expectedTotal, myShop.priceCalc(itemPrices1), 0.01); // Using delta for double comparison
     }
 
